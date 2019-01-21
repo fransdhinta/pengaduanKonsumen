@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PKL_01</string>
+    
+    <string name="chk_0">Insdustri dan Pertambangan</string>
+    <string name="chk_1">Pertanian dan Kehutanan</string>
+    <string name="chk_2">Standar mutu</string>
+    <string name="chk_3">Jasa mutu</string>
+    <string name="chk_4">Jasa</string>
+    <string name="chk_5">Klan</string>
+    <string name="chk_6">Klausa baku</string>
+    <string name="chk_7">Label</string>
+    <string name="chk_8">Lain - lain</string>
+</resources>

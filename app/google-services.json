@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1063368540914",
+    "firebase_url": "https://pkl01-4e642.firebaseio.com",
+    "project_id": "pkl01-4e642",
+    "storage_bucket": "pkl01-4e642.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063368540914:android:690f51765d878ccc",
+        "android_client_info": {
+          "package_name": "co.disperindag.pkl_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063368540914-claohn6kt1pcduk8qqbbte33fr8hik20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.disperindag.pkl_01",
+            "certificate_hash": "f19155562c54fd60caf31c8d5f18670a841ab85b"
+          }
+        },
+        {
+          "client_id": "1063368540914-sbsokog2sgj8sl7q8dlrfp9jf9c97ue2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDY4uhqUeFzE1ir_PNzgyCQs2IUgwjpIc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063368540914-sbsokog2sgj8sl7q8dlrfp9jf9c97ue2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

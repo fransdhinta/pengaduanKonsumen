@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pengaduan.Aduan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+                <TextView
+                    android:id="@+id/labelatas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Form Pengaduan : Aduan"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="384dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_hiddenMhs2"
+                    android:layout_width="91dp"
+                    android:layout_height="12dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="Email   :"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/hiddenMhs2"
+                    android:layout_width="286dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:hint="Email"
+                    android:inputType="text"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="399dp"
+                android:layout_height="405dp">
+
+                <CheckBox
+                    android:id="@+id/cb0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/tv_namaUsr"
+                    android:checked="false"
+                    android:text="@string/chk_0" />
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/tv_namaUsr"
+                    android:layout_toEndOf="@+id/tv_namaUsr"
+                    android:checked="false"
+                    android:text="@string/chk_1" />
+
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/cb0"
+                    android:layout_below="@+id/cb1"
+                    android:checked="false"
+                    android:text="@string/chk_2" />
+
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/cb0"
+                    android:layout_below="@+id/cb2"
+                    android:checked="false"
+                    android:text="@string/chk_3" />
+
+                <CheckBox
+                    android:id="@+id/cb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/cb0"
+                    android:layout_below="@+id/cb3"
+                    android:checked="false"
+                    android:text="@string/chk_4" />
+
+                <CheckBox
+                    android:id="@+id/cb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/cb0"
+                    android:layout_below="@+id/cb4"
+                    android:checked="false"
+                    android:text="@string/chk_5" />
+
+                <CheckBox
+                    android:id="@+id/cb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/cb0"
+                    android:layout_below="@+id/cb5"
+                    android:checked="false"
+                    android:text="@string/chk_6" />
+
+                <CheckBox
+                    android:id="@+id/cb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignStart="@+id/cb0"
+                    android:layout_below="@+id/cb6"
+                    android:checked="false"
+                    android:text="@string/chk_7" />
+
+                <CheckBox
+                    android:id="@+id/cb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/cb0"
+                    android:checked="false"
+                    android:text="@string/chk_8" />
+
+                <TextView
+                    android:id="@+id/tv_namaUsr"
+                    android:layout_width="112dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="Jenis Pendgaduan :"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="384dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:background="@color/colorPrimaryDark">
+
+                </View>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="399dp"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/tv_telpMhs"
+                    android:layout_width="91dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:text="Saat Kejadian :"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tglAduan"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:hint="Tanggal Bulan Tahun"
+                    android:inputType="date" />
+
+                <EditText
+                    android:id="@+id/waktuAduan"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/tglAduan"
+                    android:layout_below="@+id/tv_telpMhs"
+                    android:hint="Jam / Waktu"
+                    android:inputType="date" />
+
+                <EditText
+                    android:id="@+id/tempatAduan"
+                    android:layout_width="266dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/tglAduan"
+                    android:layout_below="@+id/waktuAduan"
+                    android:hint="Tempat/Lokasi"
+                    android:inputType="textMultiLine" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btn_kembali"
+                        android:layout_width="126dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="17dp"
+                        android:text="Kembali" />
+
+                    <Button
+                        android:id="@+id/btn_lanjut"
+                        android:layout_width="131dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="18dp"
+                        android:text="Lanjut" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

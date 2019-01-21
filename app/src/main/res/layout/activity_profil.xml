@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Pengguna.Profil"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/labelatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Profil Pengguna"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="203dp"
+        android:layout_height="153dp"
+        android:layout_below="@+id/labelatas"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logodepan"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="52dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:background="@color/colorPrimaryDark">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_namaMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Nama   :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/namaPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="Nama Pegawai"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_niMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Nip      :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nipPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="NIP"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_alamatusr"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Alamat :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/alamatPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="Alamat"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_agamaMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Agama :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/agamaPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="Agama"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_jkMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="JK         :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/jkPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="Jenis Kelamin"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_telpMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Telp     :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/telpPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="No Telp"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_pkjMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Pekerjaan:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pkjPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="Pekerjaan"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="384dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_ttlMhs"
+                android:layout_width="91dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Ttl     :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tv_ttlPg"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:hint="Ttl"
+                android:inputType="text"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

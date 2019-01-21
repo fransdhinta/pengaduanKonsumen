@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pwdPg"
+        android:layout_marginBottom="223dp"
+        android:text="Kata Sandi"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/texrUname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textPwd"
+        android:layout_marginBottom="306dp"
+        android:text="Nama Pengguna"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pwdPg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:ems="10"
+        android:hint="Masukkan Kata Sandi"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/unamePg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texrUname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-306dp"
+        android:ems="10"
+        android:hint="Masukkan NIK"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:text="MASUK" />
+
+    <Button
+        android:id="@+id/btn_Regis"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="Daftar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        app:srcCompat="@drawable/logodepan" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:text="UPT Perlindungan Konsumen"
+        android:textSize="18sp" />
+</RelativeLayout>
